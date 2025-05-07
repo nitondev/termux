@@ -1,0 +1,31 @@
+[core]
+    editor = nano
+
+[init]
+    defaultBranch = main
+
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    ci = commit
+    lg = log --oneline --graph --all --decorate
+
+[commit]
+	gpgsign = true
+
+[push]
+    default = simple
+
+[protocol]
+    version = 2
+
+[url "git@github.com:"]
+    insteadOf = https://github.com/
+
+[github]
+    user = nitondev
+
+[include]
+    path = ~/.gitconfig.local
+

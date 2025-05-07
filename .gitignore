@@ -1,0 +1,16 @@
+*
+
+!.bashrc
+!.gitconfig
+!.gitignore
+
+!bootstrap.sh
+
+.bash_history
+.cache/
+.config/
+.local/
+.ssh/
+*.local
+.gitconfig.local
+.profile
