@@ -1,0 +1,15 @@
+set nohelp
+
+# rebind
+
+bind ^s savefile all
+bind ^q exit all
+bind ^x cut all
+bind ^v paste all
+bind ^c copy all
+bind ^z undo all
+bind ^y redo  all
+bind ^g gotoline all
+bind ^f whereis all
+bind ^q cancel yesno
+bind ^r replace all
